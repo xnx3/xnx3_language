@@ -1,5 +1,6 @@
 # xnx3_language
 Java 多国语言包，极简方式，快速让Java拥有多语言切换能力
+<br/>
 <hr/>
 
 ## 最简单的，为项目快速创建多种语言支持，只需两步
@@ -10,7 +11,7 @@ Java 多国语言包，极简方式，快速让Java拥有多语言切换能力
     Language.show("chinese", "login");
 ```
 #### /demo/ 文件夹下为一个提供演示的java project的demo示例
-
+<br/>
 <hr/>
 
 ## 在web项目中使用时，使用Cookie＋Session进行存储用户当前选择的语言，下次进入时，直接使用用户自己上次选择好的语言显示出来
