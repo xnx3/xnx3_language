@@ -9,6 +9,15 @@ Java 多国语言包，极简方式，快速让Java拥有多语言切换能力
 ```Java
     Language.show("chinese", "login");
 ```
+#### /demo/ 文件夹下为一个提供演示的java project的demo示例
 
 
-### /demo/ 文件夹下为一个提供演示的java project的demo示例
+## 在web项目中使用时，使用Cookie＋Session进行存储用户当前选择的语言，下次进入时，直接使用用户自己上次选择好的语言显示出来
+#### 在jsp页面上显示指定语言的登录(login)文字
+```Java
+    LanguageWeb.show(HttpServletRequest, HttpServletResponse, "login");
+```
+#### 用户自己从页面上选择使用英文来显示，那么将用户选择的语言包存入cookie、session，下次调用show()显示的时候，直接显示用户自己选择的语言
+```Java
+    LanguageWeb.setCurrentLanguagePackageName(HttpServletRequest, HttpServletResponse, "english");
+```
