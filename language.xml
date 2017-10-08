@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- 
+		可以随意加语言，但是里面的项要一致
+	 -->
+	
+	<!-- 默认使用的语言包，这里的值便是下面配置的一级节点名 -->
+	<defaultLanguage>chinese</defaultLanguage>
+	
+	<!-- 中文 -->
+	<chinese>
+		<login>登录</login>
+		<reg>注册</reg>
+	</chinese>
+	
+	<!-- 英文 -->
+	<english>
+		<login>please login</login>
+		<reg>please reg</reg>
+	</english>
+</configuration>
